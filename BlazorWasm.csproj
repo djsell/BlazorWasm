@@ -3,6 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
+    <EmccCompileOptimizationFlag>-O1 -s ASSERTIONS=2 -s STACK_OVERFLOW_CHECK=2 -s SAFE_HEAP=1</EmccCompileOptimizationFlag>
   </PropertyGroup>
 
   <ItemGroup>
